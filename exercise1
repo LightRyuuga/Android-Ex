@@ -1,0 +1,8 @@
+fun exercise1(ADNstr:String):String = when(ADNstr) 
+{
+            "G" -> "C";
+            "C" -> "G";
+            "T" -> "A";
+            "A" -> "U";
+            else -> "Not Available";
+}
