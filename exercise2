@@ -1,0 +1,10 @@
+fun exercise2(phrase: String):String
+{
+    var output="";
+    var arr:List<String>;
+    arr=phrase.split(" ");
+    for(element in arr){
+        output+=element[0];
+    }
+    return output.toUpperCase();
+ }
